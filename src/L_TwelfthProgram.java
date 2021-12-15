@@ -159,6 +159,14 @@ public class L_TwelfthProgram {
         System.out.println(" ");
 
 
+
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < column; j++) {
+                add[i][j] = arr1[i][j] + arr2[i][j];
+            }
+        }
+
+
         System.out.println("\nThe result is: ");
 
         for (int i = 0; i < row; i++) {
