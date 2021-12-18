@@ -1,8 +1,10 @@
+package chapter2Condition;
+
 import java.util.Scanner;
 
 public class E_Fifth_Program {
 
-    public static void checkPalindrom(){
+    public static void checkPalindrom() {
         int userInput;
         int lastDigit;
         int firstDigit;
@@ -18,9 +20,9 @@ public class E_Fifth_Program {
 
         palindrom = lastDigit * 10 + firstDigit;
 
-        if (userInput == palindrom){
+        if (userInput == palindrom) {
             System.out.println("The number " + userInput + " is a palindrom.");
-        }else{
+        } else {
             System.out.println("The number " + userInput + " is not a palindrom.");
         }
     }
@@ -52,10 +54,10 @@ public class E_Fifth_Program {
         }
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         checkPerson();
 
     }
 
 
-    }
+}

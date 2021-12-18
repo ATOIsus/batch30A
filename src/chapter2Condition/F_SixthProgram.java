@@ -1,9 +1,11 @@
+package chapter2Condition;
+
 import java.util.Scanner;
 
 public class F_SixthProgram {
 
 
-    public static void switchCase(){
+    public static void switchCase() {
         int number;
 
         Scanner sc = new Scanner(System.in);
@@ -13,7 +15,7 @@ public class F_SixthProgram {
         number = sc.nextInt();
 
 
-        switch (number){
+        switch (number) {
             case 1:
                 System.out.println("No ");
                 break;
@@ -35,7 +37,7 @@ public class F_SixthProgram {
         }
     }
 
-    public static void menuDrivenProgram(){
+    public static void menuDrivenProgram() {
 
         int userInput;
         float userInputAdd1;
@@ -54,7 +56,7 @@ public class F_SixthProgram {
         System.out.print("Enter your choice: ");
         userInput = sc.nextInt();
 
-        switch(userInput){
+        switch (userInput) {
 
             case 1:
                 System.out.println(" ");
@@ -105,14 +107,14 @@ public class F_SixthProgram {
                 System.out.print("Enter a number: ");
                 userInputPal = sc.nextInt();
 
-                lastDigit  = userInputPal % 10;
+                lastDigit = userInputPal % 10;
                 firstDigit = userInputPal / 10;
 
                 palindrom = lastDigit * 10 + firstDigit;
 
-                if (userInputPal == palindrom){
+                if (userInputPal == palindrom) {
                     System.out.println("The number " + userInputPal + " is a palindrom.");
-                }else{
+                } else {
                     System.out.println("The number " + userInputPal + " is not a palindrom.");
                 }
                 break;
@@ -125,9 +127,9 @@ public class F_SixthProgram {
                 System.out.print("Enter first number: ");
                 userInputOdd = sc.nextFloat();
 
-                if (userInputOdd % 2 == 0){
+                if (userInputOdd % 2 == 0) {
                     System.out.println("The number " + userInputOdd + " is an even number.");
-                }else{
+                } else {
                     System.out.println("The number " + userInputOdd + " is not an even number.");
                 }
                 break;
@@ -139,7 +141,7 @@ public class F_SixthProgram {
     }
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         System.out.println(" ");
         switchCase();

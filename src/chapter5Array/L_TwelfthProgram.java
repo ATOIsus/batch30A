@@ -1,3 +1,5 @@
+package chapter5Array;
+
 import java.util.Scanner;
 
 public class L_TwelfthProgram {
@@ -78,7 +80,7 @@ public class L_TwelfthProgram {
 
         int[][] arr1 = new int[row][column];
         int[][] arr2 = new int[row][column];
-        int[][] add  = new int[row][column];
+        int[][] add = new int[row][column];
 
         System.out.println(" \nFor array1");
 
@@ -125,16 +127,29 @@ public class L_TwelfthProgram {
 
         int row;
         int column;
+        int row1;
+        int column1;
 
-        System.out.print("Enter number of rows   : ");
+        System.out.print("\nEnter number of rows for matrix 1   : ");
         row = sc.nextInt();
 
-        System.out.print("Enter number of columns: ");
+        System.out.print("Enter number of columns for matrix 1: ");
         column = sc.nextInt();
 
+        System.out.print("\nEnter number of rows for matrix 2   : ");
+        row1 = sc.nextInt();
+
+        System.out.print("Enter number of columns for matrix 2: ");
+        column1 = sc.nextInt();
+
+        if (row1 != column) {
+            System.out.println("\nMultiplication Not Possible");
+            return;
+        }
+
         int[][] arr1 = new int[row][column];
-        int[][] arr2 = new int[row][column];
-        int[][] add  = new int[row][column];
+        int[][] arr2 = new int[row1][column1];
+        int[][] mul = new int[row][column1];
 
         System.out.println(" \nFor array1");
 
@@ -159,10 +174,10 @@ public class L_TwelfthProgram {
         System.out.println(" ");
 
 
-
-        for (int i = 0; i < row; i++) {
+        for (int i = 0; i < row1; i++) {
             for (int j = 0; j < column; j++) {
-                add[i][j] = arr1[i][j] + arr2[i][j];
+                for (int k = 0; k < row1; k++)
+                    mul[i][j] += arr1[i][k] * arr2[k][j];
             }
         }
 
@@ -171,7 +186,7 @@ public class L_TwelfthProgram {
 
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < column; j++) {
-                System.out.print(add[i][j] + " ");
+                System.out.print(mul[i][j] + " ");
             }
         }
 

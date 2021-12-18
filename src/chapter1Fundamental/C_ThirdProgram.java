@@ -1,8 +1,10 @@
+package chapter1Fundamental;
+
 import java.util.Scanner;
 
 public class C_ThirdProgram {
 
-    public static void main(String[]  args){
+    public static void main(String[] args) {
 
         float length;
         float breadth;
@@ -16,10 +18,9 @@ public class C_ThirdProgram {
         breadth = sc.nextFloat();
 
 
-        if (length == breadth){
+        if (length == breadth) {
             System.out.println("The rectangle is a square.");
-        }
-        else{
+        } else {
             System.out.println("The rectangle is not a square.");
         }
 

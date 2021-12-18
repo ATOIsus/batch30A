@@ -1,3 +1,5 @@
+package chapter5Array;
+
 import java.util.Scanner;
 
 public class K_EleventhProgram {

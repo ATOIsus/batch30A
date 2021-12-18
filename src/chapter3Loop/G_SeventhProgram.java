@@ -1,3 +1,5 @@
+package chapter3Loop;
+
 import java.util.Scanner;
 
 public class G_SeventhProgram {
@@ -120,7 +122,7 @@ public class G_SeventhProgram {
         }
     }
 
-    public static void forLoop(){
+    public static void forLoop() {
 
         Scanner sc = new Scanner(System.in);
 
@@ -130,30 +132,30 @@ public class G_SeventhProgram {
         userInput = sc.nextLine();
 
 
-        for (int i = 0; i < userInput.length(); i ++){
+        for (int i = 0; i < userInput.length(); i++) {
             System.out.println(userInput.charAt(i));
         }
     }
 
-    public static void checkString(){
+    public static void checkString() {
 
         Scanner sc = new Scanner(System.in);
         boolean isString = false;
         char[] alphabetArray = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
-                                'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
-                                'u', 'v', 'w', 'x', 'y', 'z',
-                                'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
-                                'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
-                                'U', 'V', 'W', 'X', 'Y', 'Z'};
+                'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
+                'u', 'v', 'w', 'x', 'y', 'z',
+                'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
+                'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
+                'U', 'V', 'W', 'X', 'Y', 'Z'};
         String userInput;
 
         System.out.print("Enter something: ");
         userInput = sc.nextLine();
 
 
-        for (int i = 0; i < 52; i++){
+        for (int i = 0; i < 52; i++) {
 
-            for (int j = 0; j < userInput.length(); j ++) {
+            for (int j = 0; j < userInput.length(); j++) {
 
                 if (userInput.charAt(j) == alphabetArray[i]) {
                     isString = true;
@@ -162,19 +164,16 @@ public class G_SeventhProgram {
             }
         }
 
-        if(!isString){
+        if (!isString) {
             System.out.println(" '" + userInput + "' is a number.");
-        }else{
+        } else {
             System.out.println(" '" + userInput + "' is a string.");
         }
 
     }
 
 
-
-
-
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
 
         checkString();
@@ -182,7 +181,6 @@ public class G_SeventhProgram {
         // forLoop();
 
         // forLoopMenu();
-
 
 
     }

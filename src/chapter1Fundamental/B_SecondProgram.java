@@ -1,3 +1,5 @@
+package chapter1Fundamental;
+
 import java.util.Scanner;
 
 // ctrl + alt + l for alignment

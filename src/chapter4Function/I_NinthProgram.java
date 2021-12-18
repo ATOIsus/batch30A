@@ -1,9 +1,11 @@
+package chapter4Function;
+
 import java.util.Scanner;
 
 public class I_NinthProgram {
 
 
-    public static void menuDrivenProgram(){
+    public static void menuDrivenProgram() {
 
         int userInput;
         float userInputAdd1;
@@ -119,11 +121,11 @@ public class I_NinthProgram {
             choice = sc.next().toLowerCase().charAt(0);
             System.out.println(" ");
 
-        }while (choice == 'y') ;
+        } while (choice == 'y');
     }
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         menuDrivenProgram();
     }

@@ -1,8 +1,10 @@
+package chapter1Fundamental;
+
 import java.util.Scanner;
 
 public class A_FirstProgram {
 
-    public static int AddingNumber(){
+    public static int AddingNumber() {
 
 
         Scanner sc = new Scanner(System.in);
@@ -23,7 +25,7 @@ public class A_FirstProgram {
 
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
 
         System.out.println("Program to print sum of two number.");
