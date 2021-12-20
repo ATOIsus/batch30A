@@ -13,26 +13,30 @@ public class A_FirstProgram {
         int secondNumber;
         int result;
 
-        System.out.print("Enter first number: ");
+        System.out.print("\nEnter first number: ");
         firstNumber = sc.nextInt();
 
         System.out.print("Enter second number: ");
         secondNumber = sc.nextInt();
 
+        sc.close();
+
         result = firstNumber + secondNumber;
 
         return result;
+
+        
 
     }
 
     public static void main(String[] args) {
 
 
-        System.out.println("Program to print sum of two number.");
+        System.out.println("\nProgram to print sum of two number.");
 
         int sum = AddingNumber();
 
-        System.out.println("The sum is " + sum);
+        System.out.println("\nThe sum is " + sum);
 
     }
 

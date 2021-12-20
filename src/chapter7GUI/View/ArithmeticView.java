@@ -1,6 +1,6 @@
-package GUI.View;
+package chapter7GUI.View;
 
-import GUI.BusinessLogic.BusinessLogic;
+import chapter7GUI.BusinessLogic.BusinessLogic;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

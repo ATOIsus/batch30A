@@ -1,4 +1,4 @@
-package GUI.BusinessLogic;
+package chapter7GUI.BusinessLogic;
 
 public class BusinessLogic {
 

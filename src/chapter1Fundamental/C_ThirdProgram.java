@@ -24,6 +24,7 @@ public class C_ThirdProgram {
             System.out.println("The rectangle is not a square.");
         }
 
+        sc.close();
     }
 
 }

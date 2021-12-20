@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7b57b26-92d5-43e5-b76c-5ea4a5b083d3" name="Changes" comment="Code Updated">
+    <list default="true" id="b7b57b26-92d5-43e5-b76c-5ea4a5b083d3" name="Changes" comment="GUI with encapsulation done.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/batch30A/GUI/BusinessLogic/BusinessLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/batch30A/GUI/View/ArithmeticView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/BusinessLogic/BusinessLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter7GUI/BusinessLogic/BusinessLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/View/ArithmeticView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter7GUI/View/ArithmeticView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +47,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.ArithmeticView">
+  <component name="RunManager" selected="Application.ArithmeticView (1)">
     <configuration name="ArithmeticObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter6ClassAndObject.Exercise.ArithmeticObject" />
       <module name="batch30A" />
@@ -57,12 +61,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArithmeticView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GUI.View.ArithmeticView" />
+    <configuration name="ArithmeticView (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7GUI.View.ArithmeticView" />
       <module name="batch30A" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GUI.View.*" />
+          <option name="PATTERN" value="chapter7GUI.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7GUI.GUI.View.ArithmeticView" />
+      <module name="batch30A" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter7GUI.GUI.View.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,26 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrivateObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6ClassAndObject.ExampleAndExplanation.PrivateObject" />
-      <module name="batch30A" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter6ClassAndObject.ExampleAndExplanation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArithmeticView (1)" />
         <item itemvalue="Application.ArithmeticView" />
         <item itemvalue="Application.M_ThirteenthProgram" />
         <item itemvalue="Application.L_TwelfthProgram" />
         <item itemvalue="Application.ArithmeticObject" />
-        <item itemvalue="Application.PrivateObject" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639833167392</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="GUI with encapsulation done.">
+      <created>1639963877077</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639963877077</updated>
+    </task>
+    <task id="LOCAL-00010" summary="GUI with encapsulation done.">
+      <created>1639963886506</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1639963886506</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +210,8 @@
     <MESSAGE value="Matrix Multiplication left" />
     <MESSAGE value="Update" />
     <MESSAGE value="Code Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code Updated" />
+    <MESSAGE value="GUI with encapsulation done." />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI with encapsulation done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -32,6 +32,9 @@ public class K_EleventhProgram {
         System.out.println("No. of odd  is " + odd);
         System.out.println("No. of even is " + even);
 
+
+        sc.close();
+
     }
 
 
@@ -77,6 +80,9 @@ public class K_EleventhProgram {
         }
 
 
+        sc.close();
+
+
     }
 
     public static void arrayMaxMin() {
@@ -117,6 +123,9 @@ public class K_EleventhProgram {
         System.out.println(" ");
         System.out.println(maxNum + " is maximum number. ");
         System.out.println(minNum + " is minimum number. ");
+
+
+        sc.close();
 
     }
 
@@ -169,6 +178,9 @@ public class K_EleventhProgram {
 
         System.out.println(" ");
         System.out.println(minNum + " is the second smallest. ");
+
+
+        sc.close();
 
     }
 

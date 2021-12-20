@@ -32,6 +32,8 @@ public class L_TwelfthProgram {
             System.out.println(" ");
         }
 
+        sc.close();
+
     }
 
 
@@ -62,6 +64,8 @@ public class L_TwelfthProgram {
                 }
             }
         }
+
+        sc.close();
     }
 
 
@@ -118,6 +122,8 @@ public class L_TwelfthProgram {
             }
         }
 
+        sc.close();
+
     }
 
 
@@ -144,6 +150,7 @@ public class L_TwelfthProgram {
 
         if (row1 != column) {
             System.out.println("\nMultiplication Not Possible");
+            sc.close();
             return;
         }
 
@@ -189,6 +196,9 @@ public class L_TwelfthProgram {
                 System.out.print(mul[i][j] + " ");
             }
         }
+
+
+        sc.close();
 
     }
 

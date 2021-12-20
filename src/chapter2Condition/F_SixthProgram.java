@@ -35,6 +35,8 @@ public class F_SixthProgram {
             default:
                 System.out.println("Not between 1 and 5");
         }
+
+        sc.close();
     }
 
     public static void menuDrivenProgram() {
@@ -137,6 +139,7 @@ public class F_SixthProgram {
             default:
                 System.out.println("Incorrect number");
 
+                sc.close();
         }
     }
 

@@ -118,6 +118,7 @@ public class G_SeventhProgram {
             }
 
             System.out.println(" ");
+            sc.close();
 
         }
     }
@@ -135,6 +136,8 @@ public class G_SeventhProgram {
         for (int i = 0; i < userInput.length(); i++) {
             System.out.println(userInput.charAt(i));
         }
+
+        sc.close();
     }
 
     public static void checkString() {
@@ -169,6 +172,8 @@ public class G_SeventhProgram {
         } else {
             System.out.println(" '" + userInput + "' is a string.");
         }
+
+        sc.close();
 
     }
 

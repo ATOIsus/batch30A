@@ -22,6 +22,7 @@ public class M_ThirteenthProgram {
 
         if (size < 3) {
             System.out.println("Invalid number!");
+            sc.close();
             return;
         }
 
@@ -58,6 +59,8 @@ public class M_ThirteenthProgram {
         if (min > max) {
             System.out.println("\nThe item does not exists.");
         }
+
+        sc.close();
     }
 
 
@@ -106,6 +109,8 @@ public class M_ThirteenthProgram {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
+
+        sc.close();
     }
 
     public static void main(String[] args) {

@@ -29,6 +29,7 @@ public class D_FourthProgram {
         }
 
 
+        sc.close();
     }
 
 

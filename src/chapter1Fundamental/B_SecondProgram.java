@@ -38,7 +38,7 @@ public class B_SecondProgram {
 
         System.out.println("The simple interest of " + principle + " at time " + time + "with rate " + rate + " is " + SimpleInterest);
 
-
+        sc.close();
     }
 
 }

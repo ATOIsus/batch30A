@@ -6,7 +6,7 @@ public class E_Fifth_Program {
 
     public static void checkPalindrom() {
         int userInput;
-        int lastDigit;
+        int lastDigit; 
         int firstDigit;
         int palindrom;
 
@@ -25,6 +25,8 @@ public class E_Fifth_Program {
         } else {
             System.out.println("The number " + userInput + " is not a palindrom.");
         }
+
+        sc.close();
     }
 
     public static void checkPerson() {
@@ -52,6 +54,8 @@ public class E_Fifth_Program {
                 System.out.println("You are a girl.");
             }
         }
+
+        sc.close();
     }
 
     public static void main(String[] args) {

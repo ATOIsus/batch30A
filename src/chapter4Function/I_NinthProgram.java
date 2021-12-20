@@ -11,7 +11,7 @@ public class I_NinthProgram {
         float userInputAdd1;
         float userInputAdd2;
         float sum;
-        char choice = 'n';
+        char choice;
 
         Scanner sc = new Scanner(System.in);
 
@@ -122,6 +122,8 @@ public class I_NinthProgram {
             System.out.println(" ");
 
         } while (choice == 'y');
+        
+        sc.close();
     }
 
 

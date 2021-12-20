@@ -42,6 +42,8 @@ public class J_TenthProgram {
         simpleInterest(first, second, third);
 
         highestNumber(first, second, third);
+
+        sc.close();
     }
 
 
@@ -103,5 +105,7 @@ public class J_TenthProgram {
             System.out.println("The number is not a palindrom.");
         }
         System.out.println(" ");
+
+        sc.close();
     }
 }

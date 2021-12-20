@@ -31,6 +31,9 @@ public class H_EighthProgram {
         } else {
             System.out.println("The number is not a palindrom.");
         }
+
+
+        sc.close();
     }
 
 
@@ -67,9 +70,11 @@ public class H_EighthProgram {
         int a = (int) (firstNum * Math.pow(10, count - 1));
 
         int b = middleNum * 10 + lastNum;
-        int reversedNum = (int) (a + b);
+        int reversedNum = a + b;
 
         System.out.println(reversedNum);
+
+        sc.close();
 
 
     }
@@ -80,8 +85,8 @@ public class H_EighthProgram {
         Scanner sc = new Scanner(System.in);
 
         int userInput;
-        int firstNum = 0;
-        int withoutFirstNum = 0;
+        int firstNum;
+        int withoutFirstNum;
 
         System.out.print("Enter a number: ");
         userInput = sc.nextInt();
@@ -124,6 +129,8 @@ public class H_EighthProgram {
 
         System.out.println(reversedNum);
 
+
+        sc.close();
 
     }
 
