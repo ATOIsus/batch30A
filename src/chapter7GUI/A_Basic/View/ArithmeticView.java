@@ -1,6 +1,6 @@
-package chapter7GUI.View;
+package chapter7GUI.A_Basic.View;
 
-import chapter7GUI.BusinessLogic.BusinessLogic;
+import chapter7GUI.A_Basic.BusinessLogic.BusinessLogic;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -76,6 +76,6 @@ public class ArithmeticView extends JFrame implements ActionListener {
 
 
     public static void main(String[] args) {
-       new ArithmeticView().setVisible(true);
+        new ArithmeticView().setVisible(true);
     }
 }
