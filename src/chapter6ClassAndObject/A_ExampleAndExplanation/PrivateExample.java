@@ -1,4 +1,4 @@
-package chapter6ClassAndObject.ExampleAndExplanation;
+package chapter6ClassAndObject.A_ExampleAndExplanation;
 
 public class PrivateExample {
 

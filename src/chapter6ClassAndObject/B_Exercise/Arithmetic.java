@@ -1,4 +1,4 @@
-package chapter6ClassAndObject.Exercise;
+package chapter6ClassAndObject.B_Exercise;
 
 public class Arithmetic {
 
