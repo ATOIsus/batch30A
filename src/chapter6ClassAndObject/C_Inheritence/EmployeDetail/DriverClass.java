@@ -23,6 +23,8 @@ public class DriverClass {
         pt.dob = "May 3 2000";
         pt.hourlySalary = 10;
 
+        int result = pt.sumTwo(1, 3);
+        System.out.println("Sum is " + result);
 
         System.out.println("\n" + ft.displayName() + " has salary : " + ft.annualSalary());
         System.out.println(pt.displayName() + " has salary : " + pt.annualSalary());

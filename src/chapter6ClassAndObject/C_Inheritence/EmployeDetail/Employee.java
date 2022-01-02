@@ -7,8 +7,14 @@ public class Employee {
     public String dob;
 
 
+    public String displayName() {
+        return fname + " " + lname;
+    }
 
-public String displayName(){
-    return fname + " " + lname;
-}
+
+    public int sumTwo(int a, int b) {
+
+        return a + b;
+
+    }
 }

@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7b57b26-92d5-43e5-b76c-5ea4a5b083d3" name="Changes" comment="Radio Buttons added.">
+    <list default="true" id="b7b57b26-92d5-43e5-b76c-5ea4a5b083d3" name="Changes" comment="Inheritance done.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/batch30A/chapter6ClassAndObject/ExampleAndExplanation/PrivateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/batch30A/chapter6ClassAndObject/ExampleAndExplanation/PrivateObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/batch30A/chapter6ClassAndObject/Exercise/Arithmetic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/batch30A/chapter6ClassAndObject/Exercise/ArithmeticObject.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter6ClassAndObject/C_Inheritence/EmployeDetail/DriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6ClassAndObject/C_Inheritence/EmployeDetail/DriverClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter6ClassAndObject/ExampleAndExplanation/PrivateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6ClassAndObject/A_ExampleAndExplanation/PrivateExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter6ClassAndObject/ExampleAndExplanation/PrivateObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6ClassAndObject/A_ExampleAndExplanation/PrivateObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter6ClassAndObject/Exercise/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6ClassAndObject/B_Exercise/Arithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter6ClassAndObject/Exercise/ArithmeticObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6ClassAndObject/B_Exercise/ArithmeticObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6ClassAndObject/C_Inheritence/EmployeDetail/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6ClassAndObject/C_Inheritence/EmployeDetail/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +45,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.DriverClass">
-    <configuration name="ArithmeticView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter7GUI.A_Basic.A_BusinessLogic.A_View.ArithmeticView" />
+  <component name="RunManager" selected="Application.DriverClass (1)">
+    <configuration name="AddNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6ClassAndObject.AddNumber" />
       <module name="batch30A" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter7GUI.A_Basic.A_BusinessLogic.A_View.*" />
+          <option name="PATTERN" value="chapter6ClassAndObject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,6 +72,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DriverClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6ClassAndObject.D_Polymorphism.DriverClass" />
+      <module name="batch30A" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter6ClassAndObject.D_Polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DriverClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter6ClassAndObject.C_Inheritence.EmployeDetail.DriverClass" />
       <module name="batch30A" />
@@ -88,13 +94,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="M_ThirteenthProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5Array.M_ThirteenthProgram" />
-      <module name="batch30A" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DriverClass (1)" />
+        <item itemvalue="Application.AddNumber" />
         <item itemvalue="Application.DriverClass" />
         <item itemvalue="Application.Programmer" />
         <item itemvalue="Application.View" />
-        <item itemvalue="Application.ArithmeticView" />
-        <item itemvalue="Application.M_ThirteenthProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640167192528</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Inheritance done.">
+      <created>1640498480288</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1640498480288</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +257,8 @@
     <MESSAGE value="GUI with encapsulation done." />
     <MESSAGE value="Updated" />
     <MESSAGE value="Radio Buttons added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Radio Buttons added." />
+    <MESSAGE value="Inheritance done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
