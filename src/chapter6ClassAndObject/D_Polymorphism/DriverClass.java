@@ -3,13 +3,16 @@ package chapter6ClassAndObject.D_Polymorphism;
 public class DriverClass {
 
     public static void main(String[] args) {
-        Circle cr = new Circle();
+
+        // Shape(Parent class) is used.
+
+        Shape cr = new Circle();
         float areaCircle = cr.area(3);
 
-        Rectangle re = new Rectangle();
+        Shape re = new Rectangle();
         float areaRectangle = re.area(12, 12);
 
-        Square sq = new Square();
+        Shape sq = new Square();
         float areaSquare = sq.area(2.4f);
 
 
@@ -25,4 +28,5 @@ public class DriverClass {
     // super for parent class.
     // In polymorphism: <Child> is a <Parent>
     //                   Circle is a Shape.
+    //                   Rectangle is a Shape.
 }

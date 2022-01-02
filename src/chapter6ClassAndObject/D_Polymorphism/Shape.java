@@ -6,17 +6,17 @@ public class Shape {
 
 
 
-    float area(int radius) {
+    protected float area(int radius) {
 
         return (float) ((radius * radius) * 3.14);
     }
 
-    float area(float side) {
+    protected float area(float side) {
 
         return side * side;
     }
 
-    float area(float length, float breadth) {
+    protected float area(float length, float breadth) {
 
         return length * breadth;
     }
