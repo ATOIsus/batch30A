@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7b57b26-92d5-43e5-b76c-5ea4a5b083d3" name="Changes" comment="Overloading done.">
+    <list default="true" id="b7b57b26-92d5-43e5-b76c-5ea4a5b083d3" name="Changes" comment="Polymorphism done.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter6ClassAndObject/D_Polymorphism/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6ClassAndObject/D_Polymorphism/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter6ClassAndObject/D_Polymorphism/DriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6ClassAndObject/D_Polymorphism/DriverClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter6ClassAndObject/D_Polymorphism/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6ClassAndObject/D_Polymorphism/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter6ClassAndObject/D_Polymorphism/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6ClassAndObject/D_Polymorphism/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter6ClassAndObject/D_Polymorphism/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6ClassAndObject/D_Polymorphism/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.DriverClass (1)">
+  <component name="RunManager" selected="Application.DriverClass (2)">
     <configuration name="AddNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter6ClassAndObject.AddNumber" />
       <module name="batch30A" />
@@ -88,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DriverClass (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6ClassAndObject.D_Polymorphism.Bank.DriverClass" />
+      <module name="batch30A" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter6ClassAndObject.D_Polymorphism.Bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DriverClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter6ClassAndObject.C_Inheritence.EmployeDetail.DriverClass" />
       <module name="batch30A" />
@@ -114,26 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter7GUI.B_Overloading.View.View" />
-      <module name="batch30A" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter7GUI.B_Overloading.View.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DriverClass (2)" />
         <item itemvalue="Application.DriverClass (1)" />
         <item itemvalue="Application.AddNumber" />
         <item itemvalue="Application.DriverClass" />
         <item itemvalue="Application.Programmer" />
-        <item itemvalue="Application.View" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641102232689</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Polymorphism done.">
+      <created>1641102936431</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1641102936431</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +271,8 @@
     <MESSAGE value="Radio Buttons added." />
     <MESSAGE value="Inheritance done." />
     <MESSAGE value="Overloading done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Overloading done." />
+    <MESSAGE value="Polymorphism done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Polymorphism done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
